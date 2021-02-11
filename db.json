@@ -1,11 +1,24 @@
 {
-  "posts": [
+  "rooms": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "room1",
+      "title": "Green Room"
+    },
+    {
+      "id": "room2",
+      "title": "Red Room"
+    },
+    {
+      "id": "room3",
+      "title": "White Room"
+    },
+    {
+      "id": "room4",
+      "title": "Black Room"
+    },
+    {
+      "id": "room5",
+      "title": "Yellow Room"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
