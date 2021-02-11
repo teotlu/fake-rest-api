@@ -2,23 +2,33 @@
   "rooms": [
     {
       "id": "room1",
-      "title": "Green Room"
+      "title": "Green Room",
+      "schedule": "Mon-Fri 10:00-18:00",
+      "active": true
     },
     {
       "id": "room2",
-      "title": "Red Room"
+      "title": "Red Room",
+      "schedule": "Mon-Fri 9:00-13:00",
+      "active": true
     },
     {
       "id": "room3",
-      "title": "White Room"
+      "title": "White Room",
+      "schedule": "Mon-Fri 9:00-16:30",
+      "active": true
     },
     {
       "id": "room4",
-      "title": "Black Room"
+      "title": "Black Room",
+      "schedule": "Mon-Fri 9:00-17:00",
+      "active": false
     },
     {
       "id": "room5",
-      "title": "Yellow Room"
+      "title": "Yellow Room",
+      "schedule": "Mon-Fri 9:00-18:00",
+      "active": false
     }
   ]
 }
