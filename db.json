@@ -4,31 +4,68 @@
       "id": "room1",
       "title": "Green Room",
       "schedule": "Mon-Fri 10:00-18:00",
-      "active": true
+      "active": true,
+      "dealers": ["dealer5", "dealer2"]
     },
     {
       "id": "room2",
       "title": "Red Room",
       "schedule": "Mon-Fri 9:00-13:00",
-      "active": true
+      "active": true,
+      "dealers": ["dealer4"]
     },
     {
       "id": "room3",
       "title": "White Room",
       "schedule": "Mon-Fri 9:00-16:30",
-      "active": true
+      "active": true,
+      "dealers": ["dealer1", "dealer3"]
     },
     {
       "id": "room4",
       "title": "Black Room",
       "schedule": "Mon-Fri 9:00-17:00",
-      "active": false
+      "active": false,
+      "dealers": ["dealer1", "dealer2"]
     },
     {
       "id": "room5",
       "title": "Yellow Room",
       "schedule": "Mon-Fri 9:00-18:00",
+      "active": false,
+      "dealers": []
+    }
+  ],
+  "dealers": [
+    {
+      "id": "dealer1",
+      "title": "Brad Pitt",
+      "schedule": "Mon-Fri 10:00-18:00",
+      "active": true
+    },
+    {
+      "id": "dealer2",
+      "title": "Emma Watson",
+      "schedule": "Mon-Fri 9:00-13:00",
       "active": false
+    },
+    {
+      "id": "dealer3",
+      "title": "Tom Hiddleston",
+      "schedule": "Mon-Fri 9:00-16:30",
+      "active": true
+    },
+    {
+      "id": "dealer4",
+      "title": "Sean Connery",
+      "schedule": "Mon-Fri 9:00-17:00",
+      "active": true
+    },
+    {
+      "id": "dealer5",
+      "title": "Boris Eltsin",
+      "schedule": "Mon-Fri 9:00-18:00",
+      "active": true
     }
   ]
 }
